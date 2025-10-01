@@ -1,7 +1,4 @@
 
-# MATLAB Gas Station Simulation Framework
-
-An object-oriented discrete-event simulation (DES) framework built in MATLAB. The framework's capabilities are demonstrated through a detailed model of a multi-pump gas station with complex customer behavior, inventory management, and resource contention.
 
 ## About The Project
 
