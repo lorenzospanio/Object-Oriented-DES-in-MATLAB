@@ -45,7 +45,7 @@ To run the simulation, follow these steps:
 1.  Clone the repository or download all the `.m` files into a single folder.
 2.  In the MATLAB command window, navigate to the folder containing the project files.
 3.  Open the `test2.m` script.
-4.  Modify the simulation parameters within this file as needed (e.g., arrival rates, service times, number of simulations).
+4.  Modify the simulation parameters within this file as needed (arrival rates, service times, number of simulations).
 5.  Run the `test2.m` script 
 
 
