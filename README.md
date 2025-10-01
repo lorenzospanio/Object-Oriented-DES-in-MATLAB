@@ -31,7 +31,7 @@ The project is organized into several key classes, each with a specific responsi
 
 - **`SimulationManager.m`**: The main controller that initializes and runs multiple simulation replications.
 - **`StateManager.m` / `Future_event_Manager.m`**: Manages the simulation's state (clock, queues, resources) and the list of future events.
-- **`EventManager.m` / `discrete_event.m`**: Defines the logic for handling different types of events (e.g., arrival, completion, supply delivery).
+- **`EventManager.m` / `discrete_event.m`**: Defines the logic for handling different types of events ( arrival, completion, supply delivery).
 - **`StatisticsManager.m`**: Responsible for collecting, processing, and reporting all statistical data.
 - **`queue.m`**: A generic class defining a queue in the system.
 - **`Customer.m` / `clients.m`**: Define the entities that move through the system, including their types, preferences, and arrival processes.
@@ -39,16 +39,14 @@ The project is organized into several key classes, each with a specific responsi
 - **`connector.m` / `direction_connector.m`**: Defines the routing logic for customers moving between queues.
 - **`test2.m`**: The main script to configure the simulation parameters and start the `SimulationManager`.
 
-## Getting Started
 
 To run the simulation, follow these steps:
 
 1.  Clone the repository or download all the `.m` files into a single folder.
-2.  Open MATLAB.
-3.  In the MATLAB command window, navigate to the folder containing the project files.
-4.  Open the `test2.m` script.
-5.  Modify the simulation parameters within this file as needed (e.g., arrival rates, service times, number of simulations).
-6.  Run the `test2.m` script 
+2.  In the MATLAB command window, navigate to the folder containing the project files.
+3.  Open the `test2.m` script.
+4.  Modify the simulation parameters within this file as needed (e.g., arrival rates, service times, number of simulations).
+5.  Run the `test2.m` script 
 
 
 
