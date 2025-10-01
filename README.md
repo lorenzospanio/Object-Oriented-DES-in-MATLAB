@@ -1,10 +1,5 @@
-# Object-Oriented-DES-in-MATLAB
-An object-oriented discrete-event simulation framework in MATLAB, demonstrated with complex queues.
 
 # MATLAB Gas Station Simulation Framework
-
-![Language](https://img.shields.io/badge/Language-MATLAB-blue.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
 
 An object-oriented discrete-event simulation (DES) framework built in MATLAB. The framework's capabilities are demonstrated through a detailed model of a multi-pump gas station with complex customer behavior, inventory management, and resource contention.
 
@@ -56,40 +51,7 @@ To run the simulation, follow these steps:
 3.  In the MATLAB command window, navigate to the folder containing the project files.
 4.  Open the `test2.m` script.
 5.  Modify the simulation parameters within this file as needed (e.g., arrival rates, service times, number of simulations).
-6.  Run the `test2.m` script by pressing F5 or typing `test2` in the command window.
+6.  Run the `test2.m` script 
 
-```matlab
-% --- In test2.m ---
 
-% Adjust number of simulations
-number_of_simulations = 10;
 
-% Adjust simulation end conditions
-max_serverd = 150;
-max_clock = 5000;
-
-% Adjust client arrival rates in 'parameters_arrivals'
-parameters_arrivals = { {'mu', 5}, {'mu', 4, 'sigma', 0.5}, {'mu', 3}}; 
-
-% ... other parameters ...
-
-% Run the script
-```
-The final aggregated statistics will be displayed in the command window upon completion.
-
-## Contributing
-
-Contributions are welcome! If you have ideas for improvements, please feel free to fork the repository and submit a pull request. Some potential areas for improvement include:
-
-- **Visualization:** Add plotting functions to visualize results, such as queue length over time or histograms of customer waiting times.
-- **Code Documentation:** Add standard MATLAB help comments (H1 lines and `help` blocks) to all class methods.
-- **Unit Testing:** Implement a testing suite to verify the logic of individual components.
-- **GUI:** Develop a simple Graphical User Interface to change parameters and run the simulation.
-
-## License
-
-This project is licensed under the MIT License - see the `LICENSE` file for details.
-
-## Author
-
-[Your Name] - [Your Email or Website]
