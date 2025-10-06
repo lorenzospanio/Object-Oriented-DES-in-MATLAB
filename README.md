@@ -2,7 +2,7 @@
 
 ## About The Project
 
-This project was developed to model and analyze complex queueing systems using a robust, object-oriented architecture in MATLAB. The core of the project is a flexible DES engine capable of handling various event types, statistical distributions, and system states.
+This project was developed to model and analyze complex queueing systems using a robust, object-oriented architecture in MATLAB. The core of the project is a flexible Descrite Event Simulator engine capable of handling various event types, statistical distributions, and system states.
 
 The example simulation models a gas station with the following characteristics:
 *   An entrance queue where cars arrive.
