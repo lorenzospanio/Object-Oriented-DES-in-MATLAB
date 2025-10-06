@@ -13,7 +13,6 @@ The example simulation models a gas station with the following characteristics:
 *   Complex customer routing: cars go to a pump, then the driver walks to pay, and then returns to the pump area before exiting the system.
 *   Inventory management for three different types of fuel, using an (s, S) ordering policy.
 
-The goal is to provide a clear and extensible example of how to apply OOP principles to build sophisticated simulation models.
 
 ## Key Features
 
